@@ -39,3 +39,8 @@ function LoginBtn(event) {
         document.getElementById("nameErrMsg").textContent = "Invalid credentials";
     }
 }
+
+function LogOut(event) {
+    event.preventDefault();
+    window.location.href = "index.html"; // Or any page
+}
